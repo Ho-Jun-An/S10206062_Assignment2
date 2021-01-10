@@ -1,3 +1,32 @@
-h1{
-    color: blue;
+#title {
+    color:rgb(223, 223, 223);
+    font-size: 50px;
+    position: relative;
+    top: -10px;
+    left: 20px;
+    background-color: rgb(62, 97, 161);
+	padding: 15px;
+}
+
+.navbar ul {
+	float: right;
+    list-style-type: none;
+    position: relative;
+    top: -140px;
+    left: -40px;
+}
+
+.navbar ul li {
+    float: left;
+    margin: 15px;
+}
+
+.navbar ul li a {
+	font-family: Arial, sans-serif;
+    font-size: 15px;
+    background-color: red;
+    color: #FFFFFF;
+	text-decoration: none;
+	float: left;
+	padding: 12px;
 }

@@ -45,16 +45,11 @@
 
 .textbox{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 5px solid rgb(15, 41, 97);
     padding: 10px;
     background-color: rgb(49, 75, 124);
     color: rgb(231, 231, 231);
     text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-    align-content: center;
-    border: 5px solid rgb(15, 41, 97);
 }
 
 .homeContent {
@@ -63,8 +58,12 @@
 }
 
 form{
-    padding: 10px;
-    background-color: rgb(85, 85, 85);
-    color: rgb(180, 180, 180);
-    text-align: center;
+    padding: 15px;
+    background-color: rgb(49, 75, 124);
+    color: rgb(231, 231, 231);
+    border: 5px solid rgb(15, 41, 97);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }

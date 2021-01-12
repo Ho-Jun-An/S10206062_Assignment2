@@ -39,8 +39,9 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
     border: 10px solid rgb(1, 10, 29);
+    float: right;
+    width: 47%;
 }
 
 .textbox{
@@ -50,9 +51,11 @@
     background-color: rgb(49, 75, 124);
     color: rgb(231, 231, 231);
     text-align: center;
+    float: left;
+    width: 47%;
 }
 
-.homeContent {
+.topContent {
     position: relative;
     top: -140px;
 }
@@ -62,8 +65,7 @@ form{
     background-color: rgb(49, 75, 124);
     color: rgb(231, 231, 231);
     border: 5px solid rgb(15, 41, 97);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    text-align: center;
+    float: right;
+    width: 47%;
 }
